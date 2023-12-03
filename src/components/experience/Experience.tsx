@@ -14,9 +14,11 @@ const Experience = () => {
 
   return (
     <>
+      <color args={['#000']} attach={'background'} />
+
       <PerspectiveCamera 
         makeDefault
-        position={[-2, 6, 9]}
+        position={[1.5, 4, -7]}
       />
 
       <OrbitControls makeDefault />
